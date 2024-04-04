@@ -13,10 +13,17 @@ a {
     text-decoration: none;
 }
 
-/* Declare fonts throughout the website */
+/* Box shadow the header */
+header {
+    box-shadow: 0 2px 2px rgba(95,159,211,1);
+    /* display: flex;
+    flex-wrap: wrap; */
+}
 
+/* Declare fonts throughout the website */
 h1 {
     font-family: Montserrat, sans-serif;
+    color: rgba(95,159,211,1)
 }
 
 h4 {
@@ -37,11 +44,24 @@ a > h4 {
     margin-top: 0;
 }
 
+/* Navigation menu appears when the burger icon is clicked */
+nav {
+    position: absolute;
+    display: none;
+}
 
 /* Remove the bullet points from the list icons */
 #nav-icons {
     font-size: 110%;
     list-style-type: none;
+}
+
+/* Navigation toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+#nav-toggle{
+    display: none;
 }
 
 
