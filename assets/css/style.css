@@ -14,16 +14,16 @@ a {
 }
 
 /* Box shadow the header */
-header {
-    box-shadow: 0 2px 2px rgba(95,159,211,1);
+/* header { */
+    /* box-shadow: 0 2px 2px rgba(95,159,211,1); */
     /* display: flex;
     flex-wrap: wrap; */
-}
+/* } */
 
 /* Declare fonts throughout the website */
 h1 {
     font-family: Montserrat, sans-serif;
-    color: rgba(95,159,211,1)
+    color: #fafafa;
 }
 
 h4 {
@@ -54,6 +54,7 @@ nav {
 #nav-icons {
     font-size: 110%;
     list-style-type: none;
+    color: #fafafa;
 }
 
 /* Navigation toggle */
@@ -64,12 +65,20 @@ nav {
     display: none;
 }
 
-
 .active {
-    color: rgba(95,159,211,1);
+    color: #fafafa
+    /* rgba(95,159,211,1); */
 }
 
 /* Fontawesome icons have the same color as  */
 i {
-    color: rgba(95,159,211,1);
+    color: #fafafa;
+}
+
+#hero {
+    background: url("../images/felix-mittermeier-Knwea-mLGAg-unsplash-compressed.webp") no-repeat center center;
+    background-size: auto 116%;
+    margin: 0;
+    /* position: relative; */
+    height: 97vh;
 }
