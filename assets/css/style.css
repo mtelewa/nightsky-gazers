@@ -1,0 +1,55 @@
+
+/* Import fonts */
+
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* Lora */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* Hind Madurai */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Remove the underlines from links */
+a {
+    text-decoration: none;
+}
+
+/* Declare fonts throughout the website */
+
+h1 {
+    font-family: Montserrat, sans-serif;
+}
+
+h4 {
+    font-family: Lora, serif;
+}
+
+* {
+    font-family: "Hind Madurai", serif;
+}
+
+
+/* Get the heading and sub-heading closer to each other */
+a > h1 {
+    margin-bottom: 0;
+}
+
+a > h4 {
+    margin-top: 0;
+}
+
+
+/* Remove the bullet points from the list icons */
+#nav-icons {
+    font-size: 110%;
+    list-style-type: none;
+}
+
+
+.active {
+    color: rgba(95,159,211,1);
+}
+
+/* Fontawesome icons have the same color as  */
+i {
+    color: rgba(95,159,211,1);
+}
