@@ -36,16 +36,6 @@ h4 {
     font-family: "Hind Madurai", serif;
 }
 
-
-/* Get the heading and sub-heading closer to each other */
-/* a > h1 {
-    margin-bottom: 0;
-}
-
-a > h4 {
-    margin-top: 0;
-} */
-
 /* Navigation menu appears when the burger icon is clicked */
 /* nav { */
     /* position: absolute; */
@@ -95,6 +85,13 @@ main {
     height: 97vh;
 }
 
+/* Neighbors page */
+#solar-bg {
+    background: url("../images/pexels-zch-7568783.webp") no-repeat center center;
+    background-size: auto 116%;
+    margin: 0;
+    height: 97vh;
+}
 
 
 #social-networks {
@@ -105,4 +102,5 @@ main {
     text-align: center;
     padding: 0;
     font-size: 120%;
+    background-color: rgba(191,191,191,0.4);
 }
