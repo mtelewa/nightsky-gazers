@@ -11,6 +11,7 @@
 /* Remove the underlines from links */
 a {
     text-decoration: none;
+    color: #fafafa
 }
 
 /* Box shadow the header */
@@ -24,6 +25,7 @@ a {
 h1 {
     font-family: Montserrat, sans-serif;
     color: #fafafa;
+    padding-left: 10px;
 }
 
 h4 {
@@ -36,25 +38,30 @@ h4 {
 
 
 /* Get the heading and sub-heading closer to each other */
-a > h1 {
+/* a > h1 {
     margin-bottom: 0;
 }
 
 a > h4 {
     margin-top: 0;
-}
+} */
 
 /* Navigation menu appears when the burger icon is clicked */
-nav {
-    position: absolute;
-    display: none;
-}
+/* nav { */
+    /* position: absolute; */
+    /* display: none; */
+/* } */
 
 /* Remove the bullet points from the list icons */
 #nav-icons {
     font-size: 110%;
     list-style-type: none;
     color: #fafafa;
+    letter-spacing: 1px;
+}
+
+li {
+    padding: 5px 0;
 }
 
 /* Navigation toggle */
@@ -75,10 +82,27 @@ i {
     color: #fafafa;
 }
 
-#hero {
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#main-bg {
     background: url("../images/felix-mittermeier-Knwea-mLGAg-unsplash-compressed.webp") no-repeat center center;
     background-size: auto 116%;
     margin: 0;
-    /* position: relative; */
     height: 97vh;
+}
+
+
+
+#social-networks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    font-size: 120%;
 }
