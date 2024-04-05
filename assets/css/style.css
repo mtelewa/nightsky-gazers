@@ -176,11 +176,26 @@ section {
     text-align: center;
 }
 
+.inspiration h3:hover{
+    color:rgb(218, 149, 22);
+}
+
 .inspiration p {
     text-align: justify;
     border: 3px solid rgba(191,191,191,0.6);
     box-shadow: 3px 3px rgba(191,191,191,0.4);
+    display: none;
 }
+
+/* Carl Sagan toggle */
+#carl-toggle:checked~p, #brian-toggle:checked~p, #edwin-toggle:checked~p {
+    display: block;
+}
+/* Remove the checkbox */
+#carl-toggle, #brian-toggle, #edwin-toggle {
+    display: none;
+}
+
 
 .circle-cover-bg{
     width: 50vw;
@@ -215,7 +230,7 @@ section {
 
 /* Locations page */
 
-
+.continents-container
 
 
 
@@ -296,7 +311,7 @@ section {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        height: 40vh;
+        height: 45vh;
     }
 
     .intro-flex {
