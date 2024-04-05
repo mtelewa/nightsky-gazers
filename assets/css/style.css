@@ -41,9 +41,9 @@ header {
 }
 
 /* Main grows to take up all space */
-main {
+/* main {
     flex: 1 0 auto;
-}
+} */
 
 /* Enlarge the burger icon and center it */
 .nav-toggle-label {
@@ -108,14 +108,16 @@ h3, h4, p {
 
 p {
     padding: 5px 5px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 main {
-    /* margin-top: 10px; */
     display: flex;
     flex-direction: column;
-    /* color: #ffffff; */
+    flex: 1 0 auto;
+    background: url("../images/imgonline-com-ua-twotoone-F5QIzMBRDFg-compressed.webp") repeat center center;
+    background-size: 100% auto;
+    margin: 0;
     /* flex-grow: 1; */
 }
 
@@ -294,14 +296,19 @@ main img {
         flex-basis: 33%;
     }
 
+    h3, p {
+        font-size:120%;
+    }
+
+    /* main {
+        background: url("../images/beautiful-night-sky-with-shiny-stars-compressed.webp") no-repeat center center;
+        background-size: 100% auto;
+        margin: 0;
+    } */
+
 
 }
 
 
 
-main {
-    background: url("../images/beautiful-night-sky-with-shiny-stars-compressed.webp") no-repeat center center;
-    background-size: 100% auto;
-    margin: 0;
-    /* height: 20vh; */
-}
+
