@@ -37,6 +37,8 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
+    position: fixed;
+    background-color: #ffffff;
 }
 
 /* Main grows to take up all space */
@@ -56,10 +58,17 @@ header i {
     color: #000000; 
 }
 
+header h1 {
+    text-transform: uppercase;
+}
+
 /* Remove the underlines from links */
+a {
+    text-decoration: none;
+}
+
 /* Declare font and color of h1 */
 header a, header h1 {
-    text-decoration: none;
     color: #000000;
     font-family: Montserrat, sans-serif;
 }
@@ -124,7 +133,7 @@ main {
     flex: 1 0 auto;
     background: url("../images/imgonline-com-ua-twotoone-F5QIzMBRDFg-compressed.webp") repeat center center;
     background-size: 100% auto;
-    margin: 0;
+    margin-top: 50px;
     padding-top: 30px;
     flex-grow: 1;
 }
@@ -135,13 +144,18 @@ section {
 }
 
 
-/* Target the content in paragraphs*/
-.about div div {
+/* .about div div {
     margin: 0 5px 10px 10px;  
-    text-align: justify;
+    text-align: justify; */
     /* font-size: 90%;  */
+/* } */
+
+/* Hover effects */
+.intro-container a:hover {
+    color:rgb(218, 149, 22);
 }
 
+/* Target the content in paragraphs*/
 .border-box {
     border: 3px solid rgba(191,191,191,0.4);
     box-shadow: 3px 3px rgba(191,191,191,0.4);
@@ -150,13 +164,20 @@ section {
 }
 
 
+/* Our inspiration Heading */
+.inspiration > h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
 .inspiration h3{
+    font-size: 1.5rem;
     text-align: center;
 }
 
-
 .inspiration p {
-    text-align: center;
+    text-align: justify;
     border: 3px solid rgba(191,191,191,0.6);
     box-shadow: 3px 3px rgba(191,191,191,0.4);
 }
@@ -192,15 +213,10 @@ section {
 
 
 
-/* Gallery page */
+/* Locations page */
 
 
-/* #solar-bg {
-    background: url("../images/pexels-zch-7568783.webp") no-repeat center center;
-    background-size: auto 100%;
-    margin: 0;
-    height: 97vh;
-} */
+
 
 
 
@@ -276,28 +292,52 @@ section {
         font-size: 150%;
     }
 
-    .about {
+    .intro-container {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        height: 40vh;
     }
 
-    .info-section1 {
-        flex-basis: 50%;
+    .intro-flex {
+        flex-basis: 33%;
         padding: 10px;
     }
 
-    .master {
+    #howto-box {
+        order: 2;
+    }
+
+    #joinus-box {
+        align-self: flex-end;
+        order: 1 ;
+    }
+
+    .middle-container {
         display:flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
 
-    .info-section2 {
+    .middle-flex {
         flex-basis: 33%;
         padding: 10px;
     }
 
+    .last-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+
+    .last-flex {
+        flex-basis: 50%;
+        padding: 10px;
+    }
+    
+
+    /* Increase font size of h3 and p */
     h3, p {
         font-size:120%;
     }
