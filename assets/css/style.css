@@ -105,6 +105,11 @@ h3, h4, p {
     font-family: "Hind Madurai", serif;
 }
 
+p {
+    padding: 5px 5px;
+    font-weight: 500;
+}
+
 main {
     /* margin-top: 10px; */
     display: flex;
@@ -117,6 +122,14 @@ main {
 main img {
     width: 100%;
 }
+
+/* Move the about section down */
+.about, .inspiration {
+    padding: 10px;
+}
+
+
+
 
 /* Target the content in paragraphs*/
 .about div {
@@ -138,6 +151,12 @@ main img {
     text-align: center;
 }
 
+.inspiration p {
+    text-align: center;
+    border: 3px solid rgba(191,191,191,0.6);
+    box-shadow: 3px 3px rgba(191,191,191,0.4);
+}
+
 .circle-cover-bg{
     width: 70vw;
     height: 70vw;
@@ -153,8 +172,13 @@ main img {
 }
 
 
+#brian {
+    background: url("../images/brian.webp") no-repeat center center/cover;
+}
 
-
+#edwin {
+    background: url("../images/Edwin_Powell_Hubble_\(cropped\).webp") no-repeat center center/cover;
+}
 
 
 
@@ -252,13 +276,31 @@ main img {
         font-size: 150%;
     }
 
+    .about {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .master {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-evenly;
+    }
+
+    .info {
+        flex-basis: 33%;
+    }
+    
+
 
 }
 
 
 
 /* #main-bg {
-    background: url("../images/felix-mittermeier-Knwea-mLGAg-unsplash-compressed.webp") no-repeat center center;
+    background: url("../images/beautiful-night-sky-with-shiny-stars-compressed.webp") no-repeat center center;
     background-size: 100% 100%;
     margin: 0;
     height: 20vh;
