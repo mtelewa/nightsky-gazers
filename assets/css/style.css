@@ -26,7 +26,6 @@ body {
 }
 
 
-
 /* Header and navigation bar */
 /* header becomes flex container for the a, input and nav. */
 header {
@@ -96,73 +95,62 @@ nav li {
 }
 
 
+/* Main */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* h2 {
-    font-family: Lora, serif;
+h2 {
+    margin-left: 5px;
 }
 
 h3, h4, p {
     font-family: "Hind Madurai", serif;
-    color: #fafafa;
-} */
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Main */
-
-
-
-/* main {
+main {
+    /* margin-top: 10px; */
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    /* color: #ffffff; */
+    /* flex-grow: 1; */
 }
 
-#main-bg {
-    background: url("../images/felix-mittermeier-Knwea-mLGAg-unsplash-compressed.webp") no-repeat center center;
-    background-size: auto 100%;
-    margin: 0;
+/* Star gazing image shall cover full width */
+main img {
+    width: 100%;
 }
 
+/* Target the content in paragraphs*/
+.about div {
+    margin: 0 5px 10px 10px;  
+    text-align: justify;
+    font-size: 90%;
+    box-shadow: 3px 3px rgba(191,191,191,0.4);
+}
 
-#who{
-    border: 3px solid rgba(191,191,191,0.4);
-    width: 100vw;    
-} */
+#who {
+    border: 3px solid rgba(191,191,191,0.4); 
+}
 
+#why {
+    border: 3px solid rgba(191,191,191,0.6);
+}
 
+.inspiration h3{
+    text-align: center;
+}
 
+.circle-cover-bg{
+    width: 70vw;
+    height: 70vw;
+    margin: 20px auto;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-height: 300px;
+    max-width: 300px;
+}
 
-
+#carl {
+    background: url("../images/carl.webp") no-repeat center center/cover;
+}
 
 
 
@@ -266,3 +254,12 @@ h3, h4, p {
 
 
 }
+
+
+
+/* #main-bg {
+    background: url("../images/felix-mittermeier-Knwea-mLGAg-unsplash-compressed.webp") no-repeat center center;
+    background-size: 100% 100%;
+    margin: 0;
+    height: 20vh;
+} */
