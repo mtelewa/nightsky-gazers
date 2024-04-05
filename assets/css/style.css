@@ -15,7 +15,7 @@
     margin: 0;
     box-sizing: border-box;     /* Apply to the element including border */
     font-family: Lora, serif;
-    color: #ffffff
+    color: #ffffff;
 }
 
 /* Strech body larger than the screen height. This pushes the footer down.  */
@@ -36,7 +36,6 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    color: #000000;
     width: 100%;
 }
 
@@ -49,7 +48,12 @@ header {
 .nav-toggle-label {
     font-size: 1.8rem;
     align-self: center;
-    padding-top: 5px; 
+    padding-top: 5px;
+}
+
+/* Color the icons black */
+header i {
+    color: #000000; 
 }
 
 /* Remove the underlines from links */
@@ -96,6 +100,8 @@ nav li {
 }
 
 
+
+
 /* Main */
 
 h2 {
@@ -106,6 +112,7 @@ h3, h4, p {
     font-family: "Hind Madurai", serif;
 }
 
+/* Padding the paragraphs */
 p {
     padding: 5px 5px;
     font-weight: 600;
@@ -118,41 +125,35 @@ main {
     background: url("../images/imgonline-com-ua-twotoone-F5QIzMBRDFg-compressed.webp") repeat center center;
     background-size: 100% auto;
     margin: 0;
-    /* flex-grow: 1; */
+    padding-top: 30px;
+    flex-grow: 1;
 }
 
-/* Star gazing image shall cover full width */
-main img {
-    width: 100%;
-}
-
-/* Move the about section down */
-.about, .inspiration {
+/* Make the sections breathe */
+section {
     padding: 10px;
 }
 
 
-
-
 /* Target the content in paragraphs*/
-.about div {
+.about div div {
     margin: 0 5px 10px 10px;  
     text-align: justify;
-    font-size: 90%;
+    /* font-size: 90%;  */
+}
+
+.border-box {
+    border: 3px solid rgba(191,191,191,0.4);
     box-shadow: 3px 3px rgba(191,191,191,0.4);
+    margin: 0 5px 10px 10px;  
+    text-align: justify; 
 }
 
-#who {
-    border: 3px solid rgba(191,191,191,0.4); 
-}
-
-#why {
-    border: 3px solid rgba(191,191,191,0.6);
-}
 
 .inspiration h3{
     text-align: center;
 }
+
 
 .inspiration p {
     text-align: center;
@@ -161,8 +162,8 @@ main img {
 }
 
 .circle-cover-bg{
-    width: 70vw;
-    height: 70vw;
+    width: 50vw;
+    height: 50vw;
     margin: 20px auto;
     /* Makes the square image into a circle */
     border-radius: 50%;
@@ -226,12 +227,8 @@ main img {
     text-align: center;
     padding: 0;
     font-size: 120%;
-    background-color: rgba(191,191,191,0.4);
+    background-color: rgba(7, 3, 51, 0.6);
     /* box-shadow: 2px 0 0 1px rgba(191,191,191,0.4); */
-}
-
-#social-networks a {
-    color: #000000;
 }
 
 
@@ -280,31 +277,33 @@ main img {
     }
 
     .about {
-        display:flex;
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    .info-section1 {
+        flex-basis: 50%;
+        padding: 10px;
     }
 
     .master {
         display:flex;
         flex-direction: row;
         flex-wrap: wrap;
-        align-content: space-evenly;
     }
 
-    .info {
+    .info-section2 {
         flex-basis: 33%;
+        padding: 10px;
     }
 
     h3, p {
         font-size:120%;
     }
 
-    /* main {
-        background: url("../images/beautiful-night-sky-with-shiny-stars-compressed.webp") no-repeat center center;
-        background-size: 100% auto;
-        margin: 0;
-    } */
+
+
 
 
 }
