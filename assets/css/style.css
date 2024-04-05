@@ -15,6 +15,7 @@
     margin: 0;
     box-sizing: border-box;     /* Apply to the element including border */
     font-family: Lora, serif;
+    color: #ffffff
 }
 
 /* Strech body larger than the screen height. This pushes the footer down.  */
@@ -292,16 +293,15 @@ main img {
     .info {
         flex-basis: 33%;
     }
-    
 
 
 }
 
 
 
-/* #main-bg {
+main {
     background: url("../images/beautiful-night-sky-with-shiny-stars-compressed.webp") no-repeat center center;
-    background-size: 100% 100%;
+    background-size: 100% auto;
     margin: 0;
-    height: 20vh;
-} */
+    /* height: 20vh; */
+}
