@@ -303,9 +303,9 @@ iframe {
 .telescopes-container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .telescope-flex {
@@ -313,14 +313,15 @@ iframe {
     /* flex-basis: 50%; */
     /* parent properties */
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-/* .telescope-flex p, .telescope-flex h1 {
-    padding: 20px;
-} */
+.telescope-flex p, .telescope-flex h1 {
+    padding: 10px;
+}
 
 .telescope-flex h1 {
     font-size: 2rem;
@@ -487,9 +488,9 @@ textarea {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
         height: 40vh;
         margin-bottom: 100px;
-        justify-content: center;
     }
 
     .intro-flex {
@@ -545,12 +546,25 @@ textarea {
         margin: -50px;
     }
 
-
-    .telescopes-container {
+    .telescope-flex {
         flex-direction: row;
+        align-content: space-between;
     }
+
     .telescope-child{
-        flex-basis: 50%;
+        flex-basis: 70%;
+    }
+
+    .telescope-header {
+        order:2;
+    }
+
+    .telescope-image {
+        order:3;
+    }
+
+    .telescope-paragraph {
+        order:1;
     }
 
 }
@@ -581,6 +595,10 @@ textarea {
 
     .middle-flex {
         flex-basis: 33%;
+    }
+
+    .telescope-child{
+        flex-basis: 50%;
     }
 
 }
