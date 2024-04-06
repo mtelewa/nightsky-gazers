@@ -211,13 +211,7 @@ section {
 
 
 
-
-
-
-
-
-
-/* Locations page */
+/* --------------------- locations.html --------------------------------- */
 
 .continents-container {
     display: flex;
@@ -278,6 +272,19 @@ section {
 
 
 
+/* --------------------- join-us.html --------------------------------- */
+
+
+
+#signup-background {
+    background: url("../images/pexels-thirdman-8495473.webp") no-repeat center center/cover;
+}
+
+
+
+
+
+
 
 /* Footer */
 
@@ -296,6 +303,7 @@ section {
 
 
 /* Responsive design */
+
 /* Media query: for tablets and larger (768px and up) */
 @media screen and (min-width:768px) {
 
@@ -382,7 +390,6 @@ section {
         padding: 10px;
     }
     
-
     /* Increase font size of h3 and p */
     h3, p {
         font-size:120%;
