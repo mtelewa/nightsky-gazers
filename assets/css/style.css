@@ -98,6 +98,10 @@ header a, header h1 {
     display: none;
 }
 
+.active {
+    border-bottom: 2px solid #000000;
+}
+
 /* Navigation icons hover*/
 .bold-hover:hover a,
 .bold-hover:hover i,
@@ -105,6 +109,8 @@ header a, header h1 {
     color:rgb(253, 165, 0);
     font-weight: 700;
 }
+
+
 
 /* Separate list items */
 nav li {
