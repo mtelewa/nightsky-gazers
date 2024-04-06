@@ -278,7 +278,12 @@ section {
 legend {
     text-align: top left;
     padding: 6px 24px;
-  }
+}
+
+textarea {
+    width: 100%;
+    height: 100%
+}
 
 .signup-page {
     background: url("../images/pexels-thirdman-8495473.webp") no-repeat center center/cover;
@@ -295,9 +300,28 @@ legend {
     font-size: 16px;
 }
 
+
+.signup-form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 30vw;
+    justify-content: center;
+}
+
 .signup-child {
     padding: 10px;
+    flex-grow: 0;
     background-color: rgba(191,191,191,0.3);
+}
+
+#button-child {
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #ffffff;
+    max-width: 25vw;
+    margin-left: 30vw;
 }
 
 .black-text {
@@ -420,18 +444,6 @@ legend {
     h3, p {
         font-size:120%;
     }
-
-    /* #signup {
-        background-position: center;
-        position: relative;
-      }
-    
-    #signup-form {
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
-    top: 150px;
-    } */
 
 }
 
