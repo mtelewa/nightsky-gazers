@@ -247,8 +247,6 @@ section {
     padding: 10px;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    /* flex-grow:1; */
 }
 
 .continent-size {
@@ -279,6 +277,64 @@ section {
     text-align: center;
     list-style-type: none;
 }
+
+
+
+/* --------------------- gear.html --------------------------------- */
+
+
+.telescopes-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.telescope-flex {
+    /* child properties */
+    flex-basis: 50%;
+    /* parent properties */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.telescope-flex p {
+    padding: 20px;
+}
+
+
+.telescope-child{
+    padding: 10px;
+    /* align-items: center;
+    justify-content: center; */
+    /* flex-grow:1; */
+}
+
+.telescope-size {
+    width: 90vw;
+    height: 90vw;
+    max-height: 500px;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+
+#refractor {
+    background: url("../images/refractor.webp") no-repeat center center/ 70% 70%;
+}
+
+#reflector {
+    background: url("../images/reflector2.webp") no-repeat center center/ 70% 70%;
+}
+
+#newton {
+    background: url("../images/newton.webp") no-repeat center center/ 50% auto;
+}
+
 
 
 
