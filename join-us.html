@@ -46,44 +46,45 @@
     </header>
 
     <!-- Main -->
-    <main class="signup-background">
+    <main class="signup-page">
         <section>
                 <h1> Explore the night sky with us! </h1>
-                <form id="signup-form" method="GET" action="contact.html">
-                    <fieldset>
-                        <legend>Your details</legend>
-                        <label for="name">Full Name</label>
-                        <input type="text" name="name" id="name" class="text-input" required>
+                <form class="signup-form signup-container" method="GET" action="contact.html">
+                    <fieldset class="border-box signup-child">
+                        <legend><h3>Your details</h3></legend>
+                        <label for="name" class="signup-text">Full Name</label><br>
+                        <input type="text" name="name" id="name" class="text-input black-text" pattern=".*\S+.*" required>
                         <br>
-                        <label for="email">Email Address</label>
-                        <input type="email" name="email_address" id="email" class="text-input" required>
+                        <label for="email" class="signup-text">Email Address</label><br>
+                        <input type="email" name="email_address" id="email" class="text-input black-text" pattern=".*\S+.*" required>
                     </fieldset>
 
-                    <fieldset>
-                        <legend>I am interested in observing:</legend>
-                            <div class="checklist">
-                                <div>
-                                    <label for="stars"><h3>Stars</h3></label>
-                                    <input type="checkbox" name="interest" id="stars" value="stars" checked>
-                                </div>
-                                <div>
-                                    <label for="planets"></h3>Planets</h3></label>
-                                    <input type="checkbox" name="interest" id="planets" value="planets">
-                                </div>
-                                <div>
-                                    <label for="both"></h3>Both</h3></label>
-                                    <input type="checkbox" name="interest" id="both" value="both">
-                                </div>
+                    <fieldset class="border-box signup-child">
+                        <legend><h3>I am interested in</h3></legend>
+                            <div class="signup-text">
+                                <label for="stars">Stars</label>
+                                <input type="checkbox" name="interest" id="stars" value="stars" checked>
+                                <br>
+
+                                <label for="planets">Planets</label>
+                                <input type="checkbox" name="interest" id="planets" value="planets">
+                                <br>
+
+                                <label for="nebulae">Nebulae</label>
+                                <input type="checkbox" name="interest" id="nebulae" value="nebulae">
+                                <br>
                             </div>
                     </fieldset>
-                    <fieldset>
+
+                    <fieldset class="border-box signup-child">
+                        <legend><h3>Write us a message</h3></legend>
                         <div>
-                            <p><label for="review">Write us a message:</label></p>
-                            <textarea id="review" name="review" rows="4" cols="50">
-                            </textarea>
+                            <!-- <p><label for="review">Write us a message:</label></p> -->
+                            <textarea id="review" name="review" rows="4" cols="50" class="text-input black-text" placeholder="Write Something here"></textarea>
                         </div>
                     </fieldset>
-                <button type="submit" class="button">Send</button>
+
+                    <button type="submit" class="black-text signup-child">Send</button>
             </form>
         </section>
     </main>

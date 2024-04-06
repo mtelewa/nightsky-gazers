@@ -275,31 +275,39 @@ section {
 
 /* --------------------- join-us.html --------------------------------- */
 
+legend {
+    text-align: top left;
+    padding: 6px 24px;
+  }
 
-
-.signup-background {
+.signup-page {
     background: url("../images/pexels-thirdman-8495473.webp") no-repeat center center/cover;
 }
 
-.signup-background h1 {
+.signup-page h1 {
     text-align: center;
     font-size: 2rem;
+    margin-bottom: 20px;
 }
 
-fieldset {
-    width: 50vw;
+.text-input {
+    padding: 2px 5px;
+    font-size: 16px;
 }
 
-legend {
-    /* background-color: #000; */
-    /* color: #fff; */
-    padding: 6px 18px;
-  }
+.signup-child {
+    padding: 10px;
+    background-color: rgba(191,191,191,0.3);
+}
 
-.button {
+.black-text {
     color:#000000
 }
 
+.signup-text {
+    font-weight: 600;
+    font-size: 1.1em;
+}
 
 
 
@@ -412,6 +420,18 @@ legend {
     h3, p {
         font-size:120%;
     }
+
+    /* #signup {
+        background-position: center;
+        position: relative;
+      }
+    
+    #signup-form {
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    top: 150px;
+    } */
 
 }
 
