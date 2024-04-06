@@ -128,7 +128,7 @@ h3, h4, p {
 
 /* Padding the paragraphs */
 p {
-    padding: 5px 5px;
+    padding: 10px;
     font-weight: 600;
 }
 
@@ -230,7 +230,6 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 1300px;
 }
 
 
@@ -360,7 +359,6 @@ textarea {
     font-size: 1.4rem;
     background-color: rgba(7, 3, 51, 0.6);
     height: 6vh;
-    /* box-shadow: 2px 0 0 1px rgba(191,191,191,0.4); */
 }
 
 
@@ -412,31 +410,35 @@ textarea {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        height: 45vh;
+        height: 40vh;
+        margin-bottom: 100px;
+        justify-content: center;
     }
 
     .intro-flex {
-        flex-basis: 33%;
+        flex-basis: 50%;
         padding: 10px;
     }
 
     #howto-box {
-        order: 2;
+        order: 1;
     }
 
     #joinus-box {
         align-self: flex-end;
-        order: 1 ;
+        order: 2 ;
     }
 
     .middle-container {
         display:flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-evenly;
     }
 
     .middle-flex {
-        flex-basis: 33%;
+        flex-basis: 50%;
         padding: 10px;
     }
 
@@ -457,8 +459,40 @@ textarea {
         font-size:120%;
     }
 
+    /*  locations page flexboxes height equal*/
+    .continents-flex {
+        height: 1300px;
+    }
+
+
 }
 
 
 
+/* Media query: for laptops and larger (1024px and up) */
+@media screen and (min-width:1024px) {
 
+    .intro-container {
+        margin-bottom: 50px;
+    }
+
+
+    .intro-flex {
+        flex-basis: 33%;
+        padding: 10px;
+    }
+    
+    #howto-box {
+        order: 2;
+    }
+
+    #joinus-box {
+        order: 1 ;
+    }
+
+
+    .middle-flex {
+        flex-basis: 33%;
+    }
+
+}
