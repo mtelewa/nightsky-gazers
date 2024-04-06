@@ -230,17 +230,47 @@ section {
 
 /* Locations page */
 
-.continents-container
+.continents-container {
+    display: flex;
+    padding: 40px;
+    flex-wrap: wrap ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.continents-flex {
+    display: flex;
+    flex-direction: column;
+}
 
+.continent-size {
+    width: 50vw;
+    height: 50vw;
+    max-height: 600px;
+    max-width: 600px;
+}
 
+#africa {
+    background: url("../images/map-afrika.png") no-repeat center center/cover;
+}
 
+#europe {
+    background: url("../images/map-europa.png") no-repeat center center/cover;
+}
 
+#americas {
+    background: url("../images/map-amerika.png") no-repeat center center/cover;
+}
 
+#asia {
+    background: url("../images/map-asien.png") no-repeat center center/cover;
+}
 
-
-
-
+.flex-child{
+    align-items: center;
+    justify-content: center;
+}
 
 
 
@@ -357,9 +387,13 @@ section {
         font-size:120%;
     }
 
+    /* .continents-container{
+        flex-direction: row;
+    }
 
-
-
+    .continents-flex {
+     flex-basis: 50%;
+    } */
 
 }
 
