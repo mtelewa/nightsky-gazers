@@ -238,6 +238,10 @@ section {
     flex-direction: column;
 }
 
+.continents-flex p {
+    padding: 20px;
+}
+
 
 .flex-child{
     padding: 10px;
@@ -467,7 +471,7 @@ textarea {
 
     /*  locations page flexboxes height equal*/
     .continents-flex {
-        height: 1300px;
+        height: 1200px;
     }
 
 
