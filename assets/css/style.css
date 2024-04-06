@@ -100,7 +100,8 @@ header a, header h1 {
 
 /* Navigation icons hover*/
 .bold-hover:hover a,
-.bold-hover:hover i {
+.bold-hover:hover i,
+.bold-hover:hover {
     color:rgb(253, 165, 0);
     font-weight: 700;
 }
@@ -147,18 +148,6 @@ section {
     padding: 10px;
 }
 
-
-/* .about div div {
-    margin: 0 5px 10px 10px;  
-    text-align: justify; */
-    /* font-size: 90%;  */
-/* } */
-
-/* Hover effects */
-.intro-container a:hover {
-    color:rgb(218, 149, 22);
-}
-
 /* Target the content in paragraphs*/
 .border-box {
     border: 3px solid rgba(191,191,191,0.4);
@@ -178,10 +167,6 @@ section {
 .inspiration h3{
     font-size: 1.5rem;
     text-align: center;
-}
-
-.inspiration h3:hover{
-    color:rgb(218, 149, 22);
 }
 
 .inspiration p {
