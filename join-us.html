@@ -52,30 +52,37 @@
                 <form id="signup-form" method="GET" action="contact.html">
                     <fieldset>
                         <legend>Your details</legend>
-                <label for="name">Full Name</label>
-                <input type="text" name="name" id="name" class="text-input" required>
-                <br>
-                <label for="email">Email Address</label>
-                <input type="email" name="email_address" id="email" class="text-input" required>
-                <br>
-                <h2> I am interested in observing:</h2>
-                <div class="checklist">
-                    <div>
-                        <label for="stars"><h3>Stars</h3></label>
-                        <input type="checkbox" name="interest" id="stars" value="stars" checked>
-                    </div>
-                    <div>
-                        <label for="planets"></h3>Planets</h3></label>
-                        <input type="checkbox" name="interest" id="planets" value="planets">
-                    </div>
-                    <div>
-                        <label for="both"></h3>Both</h3></label>
-                        <input type="checkbox" name="interest" id="both" value="both">
-                    </div>
-                </div>
-                <div>
+                        <label for="name">Full Name</label>
+                        <input type="text" name="name" id="name" class="text-input" required>
+                        <br>
+                        <label for="email">Email Address</label>
+                        <input type="email" name="email_address" id="email" class="text-input" required>
+                    </fieldset>
 
-                </div>
+                    <fieldset>
+                        <legend>I am interested in observing:</legend>
+                            <div class="checklist">
+                                <div>
+                                    <label for="stars"><h3>Stars</h3></label>
+                                    <input type="checkbox" name="interest" id="stars" value="stars" checked>
+                                </div>
+                                <div>
+                                    <label for="planets"></h3>Planets</h3></label>
+                                    <input type="checkbox" name="interest" id="planets" value="planets">
+                                </div>
+                                <div>
+                                    <label for="both"></h3>Both</h3></label>
+                                    <input type="checkbox" name="interest" id="both" value="both">
+                                </div>
+                            </div>
+                    </fieldset>
+                    <fieldset>
+                        <div>
+                            <p><label for="review">Write us a message:</label></p>
+                            <textarea id="review" name="review" rows="4" cols="50">
+                            </textarea>
+                        </div>
+                    </fieldset>
                 <button type="submit" class="button">Send</button>
             </form>
         </section>
