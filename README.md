@@ -65,7 +65,10 @@ STARGAZERS is a website for amateur and professional astronomers to get to know 
 The colors chosen were based on the background image of a stary night sky. The colors shall give the user a feeling of a calm night in the desert or from a mountain top - just like how it would be when star gazing. The color palette used is inspired by
 <br>
 <br>
-<img src="documentation/design/color-palette.png" alt="Color Palette" width="50%">
+
+<p align="center">
+    <img src="documentation/design/color-palette.png" alt="Color Palette" width="50%">
+</p>
 
 Aside from the dark blue background image, I have used mainly 
 
@@ -74,4 +77,45 @@ Aside from the dark blue background image, I have used mainly
 * `color:rgb(253, 165, 0)` for hover effects
 * `#ffffff` for the font to provide contrast against the background
 
+### Typography
+
+Google Fonts was used to import the chosen fonts. The three main fonts used across the website are
+
+* For the `h1` and navigation icons `nav` in the header, [Montserrat](https://fonts.google.com/specimen/Montserrat) 
+
+* For the paragraphs `p` and `h3`, [Hind Madurai](https://fonts.google.com/specimen/Hind+Madurai)
+
+* For everything else, [Lora](https://fonts.google.com/specimen/Lora)
+
+The choice was inspired by [Font joy](https://fontjoy.com/#).
+
+### Imagery
+
+The website calls for looking up into the stars, so I wanted to give this experience with minimum distraction from the content. The image was pulled from [Freepik](https://www.freepik.com/).
+
+### Accessibility
+
+The website is as accessible as possible. Specifically by following these good-practice guidelines
+
+* Accessible Rich Internet Applications (Aria) labels on interactive elements, links and icons
+* Semantic HTML
+* Using a hover state on all buttons on the website
+
+<p align="center">
+  <img src="documentation/design/button-accessibility.png" alt="button contrast"/>
+</p>
+
+* Sufficient color contrast throughout the site including dark blue background as a fallback color in case the background images do not load
+
+I used the chrome extension [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) to check for **total** as well as **Yellow-blue color blindness (Tritanopia)** color blindness. The latter was checked as blue is the prevailing color throughout the website. The reults are shown here, respectively.
+
+
+<p align="center">
+<img src="documentation/design/total-color-blindness.png" alt="total blindness" width="45%">
+<img src="documentation/design/tritanopia.png" alt="tritanopia" width="45%">
+</p>
+
+As can be concluded, there is still enough contrast between the text and the background.
+
+- - - 
 
