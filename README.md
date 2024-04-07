@@ -18,14 +18,14 @@ STARGAZERS is a website for amateur and professional astronomers to get to know 
 * [Technologies Used](#technologies-used)
     * [Languages](#languages)
     * [Frameworks and Libraries](#frameworks)
-* [Deployment & Local Development](#deployment-development)
-    * [Deployment](deployment)
-    * [Local Development](#development)
 * [Testing](#testing)
     * [Validator Testing](#validator)
     * [Browser Compatibility](#compatibility)
     * [Test Cases and Results](#test-cases)
     * [Known Bugs](#bugs)
+* [Deployment & Local Development](#deployment-development)
+    * [Deployment](deployment)
+    * [Local Development](#development)
 * [Credits](#credits)
     * [Code Used](#code-used)
     * [Content](#content)
@@ -180,8 +180,6 @@ The main features of the website are
 <img src="documentation/features/form-responsive2.png" alt="small display" width="20%">
 </p>
 
-* How the features support user stories
-
 * Future Implementations that shall allow returning and frequent users to visit more often
 
     * Create a forum for users to communicate with each other on the platform
@@ -191,6 +189,54 @@ The main features of the website are
     * Add 'Fun fact' pop-ups to make the website more interacive and include all ages
 
 - - -
+
+## Technologies Used
+
+### Languages
+
+* HTML5
+* CSS3
+
+### Frameworks & Libraries
+
+* [Git](https://git-scm.com/) for version control
+
+* [Github](https://github.com/) to store code and other files
+
+* [GitPod](https://gitpod.io/) IDE to create and edit the codes
+
+* [Google Fonts](https://fonts.google.com/) to import the fonts used on the website.
+
+* [Google Developer Tools](https://developers.google.com/web/tools) for troubleshooting, checking responsiveness and styling
+
+* [Fonticon](https://gauger.io/fonticon/) to create the favicon
+
+* [Ilovemage](https://www.iloveimg.com/) to compress and resize images
+
+* [Cloud convert](https://cloudconvert.com/jpg-converter) to convert jpg to webp format
+
+* [Techsini](https://techsini.com/multi-mockup/) to show the website image on a range of devices
+
+* [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) to check the performance, quality, and correctness of the webpage
+
+* [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) to simulate other accessibility needs
+
+
+- - -
+
+
+
+
+
+
+
+Testing
+
+
+
+
+- - -
+
 
 ## Deployment & Local Development
 
@@ -221,6 +267,12 @@ To clone the repository:
 3. Open the terminal and change the current working directory to the location you want the cloned directory to be in
 4. Use the command `git clone git@github.com:mtelewa/nightsky-gazers.git` into the terminal
 
-Note: For step no.4 to work, first generate SSH keys and add your generated key in Account Settings -> SSH Keys. More on this can be found on the [github docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+Note: For step no.4 to work, first generate SSH keys and add your generated key in Account Settings -> SSH Keys. More on this can be found on the [github docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
 
 - - -
+
+
+Credits
+
+
+- - - 
