@@ -273,7 +273,7 @@ iframe {
 }
 
 #africa {
-    background: url("../images/map-afrika.png") no-repeat center center/ 70% auto;
+    background: url("../images/map-afrika.png") no-repeat center center/contain;
 }
 
 #europe {
@@ -540,9 +540,9 @@ textarea {
         height: 1200px;
     }
 
-    #africa {
+    /* #africa {
         margin: -50px;
-    }
+    } */
 
     .telescope-flex {
         flex-direction: row;
