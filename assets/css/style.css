@@ -166,14 +166,6 @@ section {
     margin-bottom: 15px;
 }
 
-.middle-flex {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 
 .inspiration p {
     text-align: justify;
@@ -187,6 +179,14 @@ section {
 /* Remove the checkbox */
 #carl-toggle, #brian-toggle, #edwin-toggle {
     display: none;
+}
+
+.middle-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Crop the inspiration figures  */
@@ -314,11 +314,11 @@ iframe {
     flex-direction: column;
 }
 
-.telescope-flex p, .telescope-flex h1 {
+.telescope-flex p, .telescope-flex h2 {
     padding: 10px;
 }
 
-.telescope-flex h1 {
+.telescope-flex h2 {
     font-size: 2rem;
 }
 
