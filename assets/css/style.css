@@ -410,12 +410,15 @@ textarea {
 
 /* --------------------- contact.html --------------------------------- */
 .home-button {
-    padding: 10px 16px;
+    padding: 10px;
     border-radius: 10px;
     font-size: 16px;
     background-color: #ffffff;
+    width: 20vw;
+    max-width: 130px;
     margin:10px auto;
     display:block;
+    text-align:center;
 }
 
 
