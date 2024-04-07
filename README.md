@@ -231,10 +231,30 @@ The main features of the website are
 
 ## Testing
 
+* [HTML Validator](https://validator.w3.org/) result for all the `.html` files showed no errors or warnings.
+
+<p align="center">
+<img src="documentation/testing/html-validator.png" alt="html validation" width="90%">
+</p>
 
 
+* [CSS Validator](https://jigsaw.w3.org/css-validator/) result for the `.css` file showed no errors, however it showed 3 warnings related to the importing of google fonts - which do not affect the deployment of the website by any means
 
+<p align="center">
+<img src="documentation/testing/css-validation.png" alt="css validation" width="90%">
+</p>
 
+<p align="center">
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
+<p align="center">
+<img src="documentation/testing/css-warnings.png" alt="css validation" width="90%">
+</p>
 
 - - -
 
@@ -281,6 +301,8 @@ Note: For step no.4 to work, first generate SSH keys and add your generated key 
 * Ignore white space in text field [snippet](https://stackoverflow.com/questions/13766015/is-it-possible-to-configure-a-required-field-to-ignore-white-space)
 
 * Center a `button` element within a `div` [snippet](https://stackoverflow.com/questions/15300234/how-can-i-horizontally-center-a-button-element-in-a-div-element)
+
+* Toggle display boxes snippet for the navigation bar in addition to some hints on the basic project layout of the html and css files were based on the walkthrough project - Love Running
 
 * [Developer mozilla](https://developer.mozilla.org/), [CSS tricks](https://css-tricks.com/) and [W3Schools](https://www.w3schools.com/) were valuable resources for quickly checking declarations, attributes and values syntax of HTML and CSS
 
