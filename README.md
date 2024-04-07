@@ -229,12 +229,9 @@ The main features of the website are
 - - -
 
 
+## Testing
 
 
-
-
-
-Testing
 
 
 
@@ -297,9 +294,9 @@ Note: For step no.4 to work, first generate SSH keys and add your generated key 
 
 ### Media
 
-* [Carl Sagan](https://medium.com/@codelamps/the-philosophy-of-life-based-on-carl-sagan-cosmos-curiosity-and-humble-inquiry-e595440bf820)
-* [Brian Cox](https://www.bbc.com/news/science-environment-50681661)
-* [Edwin Hubble](https://en.wikipedia.org/wiki/Edwin_Hubble#/media/File:Studio_portrait_photograph_of_Edwin_Powell_Hubble_(cropped).JPG)
+* [Carl Sagan image](https://medium.com/@codelamps/the-philosophy-of-life-based-on-carl-sagan-cosmos-curiosity-and-humble-inquiry-e595440bf820)
+* [Brian Cox image](https://www.bbc.com/news/science-environment-50681661)
+* [Edwin Hubble image](https://en.wikipedia.org/wiki/Edwin_Hubble#/media/File:Studio_portrait_photograph_of_Edwin_Powell_Hubble_(cropped).JPG)
 * [Main background image](https://www.freepik.com/photos/night-sky-background)
 * [Signup background image](https://www.pexels.com/photo/silhouette-of-person-standing-on-a-field-under-starry-night-8495473/)
 * [Maps images](https://www.worlddata.info/)
