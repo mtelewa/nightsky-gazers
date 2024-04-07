@@ -290,6 +290,16 @@ The search engine optimization (SEO) and accessibility results are very satisfyi
 
 ### Test Cases and Results
 
+The following test cases were performed on each page
+
+`index.html`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Website title | link directs the user back to the home page | click title | home page reloads | Pass |
+| Website hover effect | text color changes as the user hovers over the home page title | hover over title | text color changes | Pass |
+
+
 
 
 ### Known Bugs
