@@ -139,7 +139,7 @@ main {
     background: url("../images/imgonline-com-ua-twotoone-F5QIzMBRDFg-compressed.webp") repeat center center;
     background-size: 100% auto;
     /* Add dark blue background in case the background image does not load */
-    background-color: darkblue;
+    /* background-color: darkblue; */
     margin-top: 50px;
     padding-top: 30px;
     flex-grow: 1;
@@ -355,7 +355,6 @@ textarea {
 
 .signup-page {
     background: url("../images/pexels-thirdman-8495473.webp") no-repeat center center/cover;
-    background-color: darkblue;
 }
 
 .signup-page h1 {
