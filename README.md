@@ -17,15 +17,16 @@ STARGAZERS is a website for amateur and professional astronomers to get to know 
 * [Features](#features)
 * [Technologies Used](#technologies-used)
     * [Languages](#languages)
-    * [Frameworks and Libraries](#frameworks)
+    * [Frameworks, Libraries & Programs](#frameworks-libraries--programs)
 * [Testing](#testing)
-    * [Validator Testing](#validator)
-    * [Browser Compatibility](#compatibility)
-    * [Test Cases and Results](#test-cases)
-    * [Known Bugs](#bugs)
-* [Deployment & Local Development](#deployment-development)
-    * [Deployment](deployment)
-    * [Local Development](#development)
+    * [Validator Testing](#validator-testing)
+    * [Browser Compatibility](#browser-compatibility)
+    * [Accessibility and Performance](#accessibility-and-performance)
+    * [Test Cases and Results](#test-cases-and-results)
+    * [Known Bugs](#known-bugs)
+* [Deployment & Local Development](#deployment--local-development)
+    * [Deployment](#deployment)
+    * [Local Development](#local-development)
 * [Credits](#credits)
     * [Code Used](#code-used)
     * [Content](#content)
@@ -61,7 +62,7 @@ STARGAZERS is a website for amateur and professional astronomers to get to know 
 
 ## Design
 
-### Colour Scheme
+### Color Scheme
 
 The colors chosen were based on the background image of a stary night sky. The colors shall give the user a feeling of a calm night in the desert or from a mountain top - just like how it would be when stargazing. The color palette used is inspired by
 <br>
@@ -197,7 +198,7 @@ The main features of the website are
 * HTML5
 * CSS3
 
-### Frameworks & Libraries
+### Frameworks, Libraries & Programs 
 
 * [Git](https://git-scm.com/) for version control
 
@@ -231,6 +232,8 @@ The main features of the website are
 
 ## Testing
 
+### Validator Testing
+
 * [HTML Validator](https://validator.w3.org/) result for all the `.html` files showed no errors or warnings.
 
 <p align="center">
@@ -255,6 +258,46 @@ The main features of the website are
 <p align="center">
 <img src="documentation/testing/css-warnings.png" alt="css validation" width="90%">
 </p>
+
+
+### Browser Compatibility
+
+* Testing has been carried out on the following browsers :
+    * Chrome 123.0.6312.86 (Official Build) (64-bit)
+    * Chrome 123.0.6312.99
+    * Firefox 124.0.1 (64-bit) 
+
+### Accessibility and performance
+
+These tests were carried out using Lighthouse extension in Chrome 123.0.6312.86
+
+<p align="center">
+<img src="documentation/testing/home-report.png" alt="home report" width="45%">
+<img src="documentation/testing/locations-report.png" alt="locations report" width="46%">
+</p>
+
+<p align="center">
+<img src="documentation/testing/gear-report.png" alt="gear report" width="45%">
+<img src="documentation/testing/sign-up-report.png" alt="tritanopia" width="42%">
+</p>
+
+<p align="center">
+<img src="documentation/testing/contact-report.png" alt="contact report" width="45%">
+</p>
+
+The search engine optimization (SEO) and accessibility results are very satisfying and apart from the performance on the home page, the performance is overall above average. The reason for that could be due to the total blocking time (TBT), which shows how long a page stays unresponsive before it becomes interactive. One way it can be improved is by reducing ununsed CSS code or minimizing thread work. This will have to be considered in the upcoming projects.
+
+
+### Test Cases and Results
+
+
+
+### Known Bugs
+
+* Sign-up page takes time to load as the background image loads. It shall be replaced with a compressed version while keeping the aspect ratio
+* Full name field on the sign-up page accepts numbers and special characters
+* Display is not optimized on very wide displays (2560px and above). Fonts and buttons become small to read and click, respectively
+* On Firefox 124.0.1 (64-bit), the navigation bar icons seem to be shift upward - although still visible, they are not centered.
 
 - - -
 
@@ -324,6 +367,6 @@ Note: For step no.4 to work, first generate SSH keys and add your generated key 
 * [Maps images](https://www.worlddata.info/)
 
 
-### Acknowledgments
+### Acknowledgement
 
 I would like to thank my Code Institute mentor Jubril Akolade for his feedback and support
