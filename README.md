@@ -213,6 +213,10 @@ The main features of the website are
 
 * [Ilovemage](https://www.iloveimg.com/) to compress and resize images
 
+* [Resize Pixel](https://www.resizepixel.com/mirror-image/) to mirror images
+
+* [IMGonline](https://www.imgonline.com.ua/eng/combine-two-images-into-one.php) to merge two images into one
+
 * [Cloud convert](https://cloudconvert.com/jpg-converter) to convert jpg to webp format
 
 * [Techsini](https://techsini.com/multi-mockup/) to show the website image on a range of devices
@@ -271,8 +275,36 @@ Note: For step no.4 to work, first generate SSH keys and add your generated key 
 
 - - -
 
+## Credits
 
-Credits
+### Code Used
+
+* Hover two elements simultaneously [snippet](https://stackoverflow.com/questions/1462360/css-hover-one-element-effect-for-multiple-elements)
+
+* Ignore white space in text field [snippet](https://stackoverflow.com/questions/13766015/is-it-possible-to-configure-a-required-field-to-ignore-white-space)
+
+* Center a `button` element within a `div` [snippet](https://stackoverflow.com/questions/15300234/how-can-i-horizontally-center-a-button-element-in-a-div-element)
+
+* [Developer mozilla](https://developer.mozilla.org/), [CSS tricks](https://css-tricks.com/) and [W3Schools](https://www.w3schools.com/) were valuable resources for quickly checking declarations, attributes and values syntax of HTML and CSS
+
+### Content
+
+* [Stargazing sites around the world](https://www.travelandleisure.com/trip-ideas/nature-travel/best-places-to-see-stars-around-the-world)
+* [Stargazing sites in Africa](https://onlyone.africa/5-places-to-stargaze-in-africa/)
+* [Stargazing sites in Europe](https://www.tourradar.com/days-to-come/best-stargazing-and-astronomy-tours-in-europe-by-locals/)
+* [Stargazing sites in Asia](https://www.jetstar.com/sg/en/inspiration/articles/best-stargazing-spots-asia)
+* [Telescopes](https://www.telescopefinder.com/reflector-vs-refractor-telescope/)
+
+### Media
+
+* [Carl Sagan](https://medium.com/@codelamps/the-philosophy-of-life-based-on-carl-sagan-cosmos-curiosity-and-humble-inquiry-e595440bf820)
+* [Brian Cox](https://www.bbc.com/news/science-environment-50681661)
+* [Edwin Hubble](https://en.wikipedia.org/wiki/Edwin_Hubble#/media/File:Studio_portrait_photograph_of_Edwin_Powell_Hubble_(cropped).JPG)
+* [Main background image](https://www.freepik.com/photos/night-sky-background)
+* [Signup background image](https://www.pexels.com/photo/silhouette-of-person-standing-on-a-field-under-starry-night-8495473/)
+* [Maps images](https://www.worlddata.info/)
 
 
-- - - 
+### Acknowledgments
+
+I would like to thank my Code Institute mentor Jubril Akolade for his feedback and support
