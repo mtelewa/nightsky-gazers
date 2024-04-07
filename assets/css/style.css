@@ -41,11 +41,6 @@ header {
     background-color: #ffffff;
 }
 
-/* Main grows to take up all space */
-/* main {
-    flex: 1 0 auto;
-} */
-
 /* Enlarge the burger icon and center it */
 .nav-toggle-label {
     font-size: 1.8rem;
@@ -75,7 +70,6 @@ header a, header h1 {
 
 /* Navigation menu appears when the burger icon is clicked */
 #nav-bar {
-    /* position: absolute; */
     display: none;
     width: 100%;
 }
@@ -307,9 +301,6 @@ iframe {
 }
 
 .telescope-flex {
-    /* child properties */
-    /* flex-basis: 50%; */
-    /* parent properties */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -458,10 +449,8 @@ textarea {
 
     /* Navigation menu appears when the burger icon is clicked */
     #nav-icons {
-        /* position: absolute; */
         display: flex;
         flex-direction: row;
-        /* width: fit-content; */
     }
 
     /* Remove the checkbox */
@@ -540,10 +529,6 @@ textarea {
         height: 1200px;
     }
 
-    /* #africa {
-        margin: -50px;
-    } */
-
     .telescope-flex {
         flex-direction: row;
         align-content: space-between;
@@ -576,7 +561,6 @@ textarea {
         margin-bottom: 50px;
     }
 
-
     .intro-flex {
         flex-basis: 33%;
         padding: 10px;
@@ -589,7 +573,6 @@ textarea {
     #joinus-box {
         order: 1 ;
     }
-
 
     .middle-flex {
         flex-basis: 33%;
