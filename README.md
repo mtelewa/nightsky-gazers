@@ -188,6 +188,39 @@ The main features of the website are
     * Add 'News' section to share the latest in the astronomy community 
     * Add an up-to-date 'Gallery' page to showcase the images taken by our astrophotographers community
     * Add 'search' box in the navigation bar 
-    * Add 'Fun facts' pop-ups to make the website more interacive and include all ages
+    * Add 'Fun fact' pop-ups to make the website more interacive and include all ages
 
+- - -
 
+## Deployment & Local Development
+
+### Deployment
+
+The website is deployed using GitHub Pages. To Deploy the website:
+
+1. Go to the [nightsky-gazers](https://github.com/mtelewa/nightsky-gazers/) repository for this project on Github - this was the initial name of the website
+2. Navigate to settings/pages
+3. From the source dropdown select "Deploy from a branch" and press save
+4. The site has now been deployed and the website goes live
+
+### Local Development
+
+#### How to Fork
+
+To fork the repository:
+
+1. Go to the [nightsky-gazers](https://github.com/mtelewa/nightsky-gazers/) repository
+2. Click the "Fork" button in the top right corner.
+
+#### How to Clone
+
+To clone the repository:
+
+1. Go to the [nightsky-gazers](https://github.com/mtelewa/nightsky-gazers/) repository
+2. Click on the "Code" button, select "SSH" and copy the link
+3. Open the terminal and change the current working directory to the location you want the cloned directory to be in
+4. Use the command `git clone git@github.com:mtelewa/nightsky-gazers.git` into the terminal
+
+Note: For step no.4 to work, first generate SSH keys and add your generated key in Account Settings -> SSH Keys. More on this can be found on the [github docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+
+- - -
