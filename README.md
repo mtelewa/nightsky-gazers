@@ -298,6 +298,35 @@ The following test cases were performed on each page
 | --- | --- | --- | --- | --- |
 | Website title | link directs the user back to the home page | click title | home page reloads | Pass |
 | Website hover effect | text color changes as the user hovers over the home page title | hover over title | text color changes | Pass |
+| Navigation bar show current page | an underline appears for the current page | click on any page | page is underlined | Pass |
+| Navigation hover effect | text color changes as the user hovers over the icons or text in the navigation bar | hover over icon or text | text color changes | Pass |
+| Navigation bar icons lead to the corresponding page | User gets directed to the page by clicking on the icons/text | click on icon/text | navigates to page requested | Pass |
+| Box headings lead to the corresponding page | User gets directed to the page by clicking on the headings | click on heading | navigates to page requested | Pass |
+| External links in footer | User is directed to external social media website in new tab | click on link | opens link in new tab | Pass |
+| Dialog boxes on click | User gets dialog boxes as they click on the names of the insporational figures | click on name | opens dialog box with information | Pass |
+
+
+`locations.html`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| External links | User is directed to external website in new tab | click on link | opens link in new tab | Pass |
+
+
+`join-us.html`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| User can check one or all boxes as interest | interactive box checking | check one, two or three boxes | boxes checked | Pass |
+| Entering text in the textarea field | the placeholder text disappears | write something in the textarea field | text disappears | Pass |
+| Send data button  | button directs the user to the `contacts` page where they a recieve a confirmation of submission | click send | user is redirected to the `contacts` page and recieves a confirmation | Pass |
+
+
+`contact.html`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Button to home page  | button directs the user back to the home page | click button | home page reloads | Pass |
 
 
 
