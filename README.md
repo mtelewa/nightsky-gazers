@@ -94,7 +94,7 @@ The choice was inspired by [Font joy](https://fontjoy.com/#).
 
 The website calls for looking up into the stars, so I wanted to give this experience with minimum distraction from the content. The image was pulled from [Freepik](https://www.freepik.com/).
 
-## Wireframes
+### Wireframes
 
 Wireframes were based on hand sketches on my personal tablet using a stylus. Since the initial wireframes differ a lot from the final website, I decided not to include them here. However, for future projects, I am sure [Balsamiq](https://balsamiq.com/) or [Figma](https://figma.com/) will be essential.
 
